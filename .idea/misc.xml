@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/drawable/background.xml" value="0.332" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/activity_b_datos_act.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/activity_info_act.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/activity_main.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/activity_menu_act.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/activity_ubicacion__local_act.xml" value="0.16590678824721378" />
+        <entry key="..\:/Users/marce/Downloads/Proyectos de Android/Proyecto_Mani/app/src/main/res/layout/background.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
