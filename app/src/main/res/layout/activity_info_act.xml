@@ -13,14 +13,14 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="GFG | First App"
+        android:text="Prueba de sensor biometrico"
         android:textColor="#fafafa"
         android:textSize="30dp" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Use your fingerprint to login"
+        android:text=""
         android:textColor="#fafafa"
         android:textSize="18sp" />
 
@@ -44,6 +44,6 @@
         android:layout_height="wrap_content"
         android:layout_marginVertical="20dp"
         android:background="#fafafa"
-        android:text="Login" />
+        android:text="Validar" />
 
 </LinearLayout>

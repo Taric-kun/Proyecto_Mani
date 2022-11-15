@@ -32,7 +32,7 @@ public class Info_act extends AppCompatActivity {
 
             // this means we can use biometric sensor
             case BiometricManager.BIOMETRIC_SUCCESS:
-                msgtex.setText("You can use the fingerprint sensor to login");
+                msgtex.setText("pulse Validar para activar el sensor de huella");
                 msgtex.setTextColor(Color.parseColor("#fafafa"));
                 break;
 
@@ -68,7 +68,7 @@ public class Info_act extends AppCompatActivity {
             public void onAuthenticationSucceeded(@NonNull BiometricPrompt.AuthenticationResult result) {
                 super.onAuthenticationSucceeded(result);
                 Toast.makeText(getApplicationContext(), "Login Success", Toast.LENGTH_SHORT).show();
-                loginbutton.setText("Login Successful");
+                loginbutton.setText("Huella reconocida correctamente ");
             }
             @Override
             public void onAuthenticationFailed() {
@@ -78,7 +78,7 @@ public class Info_act extends AppCompatActivity {
         // creating a variable for our promptInfo
         // BIOMETRIC DIALOG
         final BiometricPrompt.PromptInfo promptInfo = new BiometricPrompt.PromptInfo.Builder().setTitle("GFG")
-                .setDescription("Use your fingerprint to login ").setNegativeButtonText("Cancel").build();
+                .setDescription("por favor ponga su huella en el lector").setNegativeButtonText("Cancel").build();
         loginbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
